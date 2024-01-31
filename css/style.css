@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1110px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.header {
+    background-color: #014E56;
+    padding-top: 77px;
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-logo {
+    margin-right:80px ;
+}
+
+.header-logo:hover {
+    opacity: 50%;
+}
+
+.header-list {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.header-link {
+    color: #FFF;
+    font-family: livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px; 
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+.header-link:hover {
+    color: #F67E7E;
+}
+
+.head-but {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px; 
+    border-radius: 24px;
+    border: 2px solid #ffffff;
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    background-color: #014d5600;
+    margin-left: auto;
+
+}
+
+.head-but:hover{
+    opacity: 60%;
+}
+
+/* =======================
+        INTRO
+=========================*/
+
+.intro-sec {
+    background-image: url(../img/head-img1.png), url(../img/head-line.png), url(../img/head-line2.svg),url(../img/head-img2.png);
+    background-repeat: no-repeat;
+    background-position-y:124px, 140px, 419px, 424px ;
+    background-position-x: 0,899px, 940px, 950px ;
+    background-color: #014E56;
+    padding-top: 77px;
+    
+}
+
+.intro-title{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100px;
+    width: 556px;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+
+.intro-title--sp{
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100px;
+
+}
+
+.intro-info {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px; 
+    width: 422px;
+    display: inline-block;
+    margin-left: 128px;
+    margin-bottom: 200px;
+    
+}
+
+/* ===========================
+        SERVICE-SEC
+==============================*/
+
+.service-sec{
+    background-color: #012F34;
+    background-image: url(../img/Group\ 8.svg), url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position-x: 1418px, 207px ;
+    background-position-y: 427px, 150px ;
+}
+
+.service-sec--title {
+    color: #fff;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 445px;
+    padding-top: 198px;
+    display: inline-block;
+    padding-bottom: 330px;
+    
+
+}
+
+.client-img {
+    display: inline-block;
+}
+
+.img-title{
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.img-info {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px; 
+    opacity: 0.8;
+    width: 445px;
+    margin-bottom: 32px;
+}
+
+.client-img-info{
+    display: inline-block;
+}
+
+.service-sec-right{
+    display: inline-block;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 145px;
+}
+
+/* ==============================
+        QUORTS SECTION
+=================================*/
+
+.quorts-section{
+    background-color: #004047;
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background-image: url(../img/Group\ 8\ Copy.svg), url(../img/Group\ 8\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position-x:0, 1319px;
+    background-position-y:0, 660px;
+}
+
+.quorts-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 932px;
+    margin-left: 130px;
+}
+
+.quorts-title-sp {
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.quote-box {
+    margin: 0;
+    margin-top: 92px;
+    display: inline-block;
+    
+
+}
+
+
+
+.quote-1 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    width: 350px;
+    margin-bottom: 24px;
+    text-align: center;
+    position: relative;
+    margin-top: -20px;
+    
+    
+}
+.quote-logo {
+    margin-left: 137px;
+    margin-top:-30px;
+
+}
+
+.name {
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 127px;
+}
+
+.proffesion {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 32px;
+    margin-left: 82px;
+}
+
+.woman-img {
+    margin-left: 145px;
+}
+
+.proffesion2 {
+    margin-left: 125px;
+}
+
+.proffesion3{
+    margin-left: 115px;
+}
+
+.quote-box2 {
+    margin: 0;
+    margin-top: 92px;
+    display: inline-block;
+    margin-left: 26px;
+    
+
+}
+
+.quote-box3 {
+    margin: 0;
+    margin-top: 92px;
+    display: inline-block;
+    margin-left: 26px;
+    
+
+}
+
+/* ================================
+        GO-START-SECTION
+===================================*/
+
+.gostart-section{
+    background-color: #F67E7E;
+    padding: 76px 260px 76px 263px;
+    background-image: url(../img/Group\ 8\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position-y: 56px ;
+
+}
+
+.go-start--title {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    display: inline-block;
+
+}
+
+.go-start--but {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px; 
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    background-color: #014d5600;
+    margin-left: auto;
+
+
+}
+
+.go-start--but:hover {
+    opacity: 60%;
+}
+
+.go-start {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* ================================
+            FOOTER
+==================================*/
+
+.footer {
+    background-color: #002529;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer-logo:hover {
+    opacity: 60%;
+}
+
+.footer-link {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #F67E7E;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.footer-adress{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px; 
+    opacity: 0.6;
+    margin-top: -98px;
+    margin-left: 300px;
+}
+
+.footer-soc--link{
+    position: absolute;
+    margin-top: -92px;
+    margin-left: 1085px;
+}
+
+.footer-copy {
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    opacity: 0.6;
+    margin-left: 949px;
+    margin-top: -25px;
+}
